@@ -8,6 +8,7 @@ body {
     justify-content: center;
     height: 100vh;
     flex-direction: column;
+    padding: 10px;
 }
 
 #text-to-speech {
@@ -16,12 +17,13 @@ body {
 
 #text {
     width: 80%;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 15px;
     font-size: 18px;
     border: 2px solid #ddd;
     border-radius: 10px;
     resize: none;
+    font-family: 'Arial', sans-serif;
 }
 
 #speak-button {
@@ -41,4 +43,6 @@ body {
 h1 {
     color: #333;
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
 }
