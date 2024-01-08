@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#text-to-speech {
+    text-align: center;
+}
+
+#text {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    resize: none;
+}
+
+#speak-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#speak-button:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
