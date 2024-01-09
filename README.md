@@ -2,6 +2,8 @@
 Converting text to speech using HTML, CSS, and JavaScript can be done using the SpeechSynthesis API.
 The SpeechSynthesis API is a built-in JavaScript API that allows you to convert text to speech directly in the browser without the need for any external libraries.
 
+This is just a basic example and you can customize it further according to your needs by, for example, adding more options to the speech synthesis and also you can use libraries such as responsivevoice.js, meSpeak.js or annyang.js to add more functionalities and features.
+
 ## Demo
 Live demo : https://text-to-speech-converter-with-java-script.vercel.app/
 
